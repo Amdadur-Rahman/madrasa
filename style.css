@@ -4,19 +4,22 @@ body{
 h1{
     color: rgba(14, 6, 226, 0.959);
 }
-#my-table{
+#my-table,
+h4{
     margin: 0 auto;
     /* border: 2px solid black; */
     padding: 20px;
     width: 300px;
 }
 #my-table th,
-#my-table td {
+#my-table td ,
+h4{
     border: 1px solid black;
     padding: 8px;
     text-align: center;
 }
-#my-table th{
+#my-table th,
+h4{
     color: aliceblue;
     background-color: blue;
 }
