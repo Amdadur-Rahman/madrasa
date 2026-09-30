@@ -57,6 +57,16 @@ table{
     text-align: center;
 }
 
+#image{
+    background-image: url('images/amdad.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    align-items: center;
+    margin: -2.3rem -5rem;
+}
+
 
 #naver,
 #footer{
