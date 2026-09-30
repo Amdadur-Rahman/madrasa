@@ -1,25 +1,115 @@
 body{
     background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
+
+
 h1{
-    color: rgba(14, 6, 226, 0.959);
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration:none ;
+    color: rgba(11, 4, 190, 0.959);
 }
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+button:hover{
+    background-color: rgb(57, 205, 8);
+}
+
+input,
+select,
+textarea{
+    background: rgb(218, 210, 194);
+    margin: 3px;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+}
+
+table{
+    margin: 0 auto;
+}
+
+
+
+.segent-digine,
+.fast-digine{
+    color:none;
+    background-color:rgb(217, 212, 202);
+    text-decoration: none;
+    box-shadow: 1rem 1rem rgba(226, 226, 161, 0.766);
+    margin: 2.3rem 5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+
+#naver,
+#footer{
+    background-color: rgb(46, 219, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+nav a ,
+footer a{
+    color:blue;
+    text-decoration: none;
+    font-weight: 600;
+}
+#name{
+    color: rgb(14, 14, 241);
+}
+
+
+#classmet,
+ol{
+    text-align: center;
+    list-style: none;
+}
+
 #my-table,
 h4{
     margin: 0 auto;
     /* border: 2px solid black; */
     padding: 20px;
     width: 300px;
+    
 }
+
+#my-table th,
+h4,
+button{
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 0.5rem;
+    
+}
+
 #my-table th,
 #my-table td ,
 h4{
     border: 1px solid black;
     padding: 8px;
     text-align: center;
+    border-radius: 0.5rem;
+    
 }
-#my-table th,
-h4{
-    color: aliceblue;
-    background-color: blue;
-}
+
+
+

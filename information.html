@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Comptible" content="ie=edge">mm
+    <meta http-equiv="X-UA-Comptible" content="ie=edge">
     <title>madrasah page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
+
+<!-- this is naver website -->
+    <nav id="naver">
         <ul>
             <li>
                 <a href="#">Home</a>
@@ -27,7 +33,8 @@
     </nav>
 
    
-   <div>
+<!-- this is my madrasah information -->
+   <div id="madrasah-information" class="segent-digine">
     <table id="my-table">
     <h1>Name: jamea qasimul uloom darga sylhet</h1> 
     <h4>stodent name</h4>
@@ -58,23 +65,43 @@
     </tr>
    </table>
    </div>
-   
-   <div>
-    <h3>My classmet</h3>
+
+
+<!-- this is list my classmet -->
+
+   <div id="classmet" class="fast-digine">
+    <span id="name">
+        <h4>My classmet</h4>
     <ol>
         <li>amdadur rahman</li>
         <li>abidur rahman</li>
         <li>miftahul islam</li>
         <li>nahid islam</li>
    </ol>
+    </span>
+    
    </div>
 
-   <div id="about">
+
+<!-- this is test paragraph -->
+
+   <div id="paragraph" class="segent-digine">
+    <p>
+        What is a paragraph?
+Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.
+    </p>
+   </div>
+
+
+<!-- this about me -->
+
+   <div id="about" class="fast-digine">
+    <h4>About me</h4>
 
     <h2>My name is amdadur rahman</h2>
     <p>i study of jamea qasimul uloom dargah sylhet</p>
-    <table border="1" cellpadding="5" cellspacing="0">
-        <h3>my skill</h3>
+    <table id="skill-table" border="1" cellpadding="5" cellspacing="0">
+        <h4>my skill</h4>
         <thead>
             <th>No</th>
             <th>Name</th>
@@ -103,10 +130,13 @@
     </table>
    </div>
 
-   <form>
-    <h3>Input your detils</h3>
+<!-- this is user form -->
 
-        <label for="name">Name</label>
+   <form id="user-form" class="segent-digine">
+    <h4>Input your detils</h4>
+
+        <div id="form-grop">
+            <label for="name">Name</label>
         <input type="text" id="name">
         <br>
 
@@ -125,9 +155,17 @@
             <option value="c">c</option>
             <option value="java">java</option>
         </select>
-        <h3>
+        </div>
+        <button>Submit</button>
+        
+   </form>
+
+<!-- this is my form -->
+
+   <form action="" id="my-form" class="fast-digine">
+    <h4>
             skill progress
-        </h3>
+        </h4>
         <label for="htmlprogress">Html :</label>
         <progress id="htmlprogress" max="100" value="90"></progress>
         90%
@@ -147,10 +185,12 @@
    </form>
 
 
-   <footer>
+<!-- this is footer -->
+
+   <footer id="footer">
 
     <div id="Contact">
-        <h3>Contact me</h3>
+        <h4>Contact me</h4>
         <ul>
             <li>
                 
@@ -173,7 +213,7 @@
             
         
     </div>
-    
+
    </footer>
 </body>
 </html>
